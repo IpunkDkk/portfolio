@@ -1,0 +1,371 @@
+/* Mobile Responsive Design */
+
+/* Small Tablets (768px and below) */
+@media (max-width: 768px) {
+    /* Navigation */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: var(--bg-white);
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding-top: 2rem;
+        transition: left 0.3s ease;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-link {
+        color: var(--text-dark);
+        margin: 1rem 0;
+    }
+
+    .navbar.scrolled .nav-link {
+        color: var(--text-dark);
+    }
+
+    .hamburger span {
+        background: white;
+    }
+
+    .navbar.scrolled .hamburger span {
+        background: var(--text-dark);
+    }
+
+    /* Hero Section */
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .profile-card {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    /* About Section */
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .about-stats {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    /* Skills Section */
+    .skills-headers {
+        grid-template-columns: 1fr;
+    }
+
+    /* Timeline */
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-content {
+        width: calc(100% - 40px);
+        margin-left: 40px !important;
+        margin-right: 0 !important;
+    }
+
+    .timeline-content::before {
+        left: -30px !important;
+        right: auto !important;
+    }
+
+    /* Contact Section */
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        order: -1;
+    }
+
+    /* Education Section */
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Modals */
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+        max-height: 85vh;
+    }
+
+    .modal-header {
+        padding: 1rem 1.5rem;
+    }
+
+    .modal-body {
+        padding: 1.5rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-meta {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Phones (480px and below) */
+@media (max-width: 480px) {
+    /* Base */
+    .container {
+        padding: 0 1rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Hero Section */
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    /* About Section */
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .stat-item {
+        padding: 1rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    /* Skills Headers */
+    .skill-header-card {
+        padding: 1.5rem;
+    }
+
+    .skill-header-card i {
+        font-size: 2.5rem;
+    }
+
+    .skill-header-card h3 {
+        font-size: 1.3rem;
+    }
+
+    /* Timeline */
+    .timeline-content {
+        padding: 1.5rem;
+    }
+
+    .timeline-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .timeline-content h4 {
+        font-size: 1rem;
+    }
+
+    .timeline-info {
+        gap: 0.25rem;
+    }
+
+    /* Education */
+    .education-card {
+        padding: 1.5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .edu-icon {
+        margin: 0 auto 1rem;
+    }
+
+    /* Contact */
+    .contact-item {
+        padding: 1rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
+    }
+
+    /* Modals */
+    .modal-content {
+        width: 98%;
+        margin: 5% auto;
+    }
+
+    .modal-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .close-modal {
+        font-size: 1.5rem;
+        width: 25px;
+        height: 25px;
+    }
+
+    .modal-body {
+        padding: 1rem;
+    }
+
+    .experience-position h2 {
+        font-size: 1.5rem;
+    }
+
+    .experience-position h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-responsibilities h3,
+    .experience-skills h3,
+    .experience-description h3 {
+        font-size: 1.1rem;
+    }
+
+    .skills-used {
+        gap: 0.5rem;
+    }
+
+    .skill-tag {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+/* Large Tablets (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Timeline */
+    .timeline-content {
+        width: 55%;
+    }
+
+    /* Skills Headers */
+    .skills-headers {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    /* About Stats */
+    .about-stats {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .nav-menu {
+        height: calc(100vh - 60px);
+        top: 60px;
+    }
+}
+
+/* High DPI/Retina Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero::before {
+        background-size: cover;
+    }
+
+    .profile-card {
+        backdrop-filter: blur(20px);
+    }
+}
+
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .hamburger,
+    .hero-buttons,
+    .contact-form,
+    .modal,
+    .scroll-indicator {
+        display: none !important;
+    }
+
+    .hero {
+        background: none !important;
+        min-height: auto !important;
+        padding: 2rem 0;
+    }
+
+    .hero::before {
+        display: none !important;
+    }
+
+    .timeline::before {
+        background: #000 !important;
+    }
+
+    .timeline-content {
+        border: 1px solid #ddd !important;
+        break-inside: avoid;
+    }
+
+    .skill-header-card,
+    .education-card,
+    .cert-item {
+        break-inside: avoid;
+        border: 1px solid #ddd;
+    }
+
+    body {
+        color: #000 !important;
+        background: #fff !important;
+    }
+
+    a {
+        color: #000 !important;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,573 @@
+{
+  "profile": {
+    "nama": "Trio Agung Purwanto",
+    "jabatan": "Full Stack Developer",
+    "lokasi": "Pamekasan, East Java, Indonesia",
+    "kontak": {
+      "phone": "+62 853-3004-3948",
+      "email": "ipunka37@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/trio-agung-purwanto"
+    },
+    "summary": "Full-stack Developer dengan pengalaman 5+ tahun dalam pengembangan backend dan aplikasi web skala besar. Mahir dalam Laravel, PostgreSQL, Firebase, DevOps, dan AI-assisted development. Memanfaatkan teknologi AI (ChatGPT, GitHub Copilot, dsb.) untuk meningkatkan efisiensi coding, automasi, dan solusi inovatif. Berpengalaman dalam proyek kampus dan freelance, berfokus pada performa dan user experience. Aktif mengeksplorasi AI & Prompt Engineering."
+  },
+  "keahlian": {
+    "categories": {
+      "frontend": {
+        "title": "Frontend Development",
+        "icon": "fab fa-html5",
+        "description": "HTML, CSS, JavaScript & modern utilities",
+        "skills": [
+          {
+            "icon": "fab fa-html5",
+            "title": "HTML5",
+            "description": "Semantic HTML & modern markup"
+          },
+          {
+            "icon": "fab fa-css3-alt",
+            "title": "CSS3",
+            "description": "Responsive design & utility-first styling"
+          },
+          {
+            "icon": "fab fa-js",
+            "title": "JavaScript",
+            "description": "ES6+, DOM manipulation & async programming"
+          },
+          {
+            "icon": "fas fa-wind",
+            "title": "Tailwind CSS",
+            "description": "Utility-first CSS framework"
+          },
+          {
+            "icon": "fab fa-bootstrap",
+            "title": "Bootstrap",
+            "description": "Responsive framework & components"
+          },
+          {
+            "icon": "fas fa-table",
+            "title": "DataTables",
+            "description": "Tabel interaktif untuk web apps"
+          },
+          {
+            "icon": "fas fa-bolt",
+            "title": "Livewire",
+            "description": "Full-stack framework untuk Laravel (SPA tanpa JS berlebih)"
+          }
+        ]
+      },
+      "backend": {
+        "title": "Backend Development",
+        "icon": "fas fa-server",
+        "description": "Server-side technologies & databases",
+        "skills": [
+          {
+            "icon": "fab fa-laravel",
+            "title": "Laravel",
+            "description": "PHP framework dengan Eloquent ORM"
+          },
+          {
+            "icon": "fab fa-php",
+            "title": "PHP",
+            "description": "Back-end web development"
+          },
+          {
+            "icon": "fab fa-python",
+            "title": "Python",
+            "description": "Scripting & data processing"
+          },
+          {
+            "icon": "fas fa-database",
+            "title": "MySQL",
+            "description": "Relational database management"
+          },
+          {
+            "icon": "fas fa-database",
+            "title": "PostgreSQL",
+            "description": "Relational database management"
+          },
+          {
+            "icon": "fas fa-fire",
+            "title": "Firebase",
+            "description": "Auth, hosting & realtime database"
+          },
+          {
+            "icon": "fas fa-cloud",
+            "title": "Cloud Firestore",
+            "description": "NoSQL document database (Firebase)"
+          },
+          {
+            "icon": "fas fa-plug",
+            "title": "REST APIs",
+            "description": "API design & integration"
+          },
+          {
+            "icon": "fas fa-code",
+            "title": "JSON",
+            "description": "Data interchange format"
+          },
+          {
+            "icon": "fas fa-project-diagram",
+            "title": "Model-View-Controller (MVC)",
+            "description": "Arsitektur aplikasi web"
+          }
+        ]
+      },
+      "tools": {
+        "title": "Tools & DevOps",
+        "icon": "fas fa-tools",
+        "description": "Development tools & deployment",
+        "skills": [
+          {
+            "icon": "fab fa-git-alt",
+            "title": "Git",
+            "description": "Version control & collaboration"
+          },
+          {
+            "icon": "fab fa-aws",
+            "title": "Amazon Web Services (AWS)",
+            "description": "Compute, storage & deployment"
+          },
+          {
+            "icon": "fas fa-terminal",
+            "title": "AWS CLI",
+            "description": "Automation & provisioning on AWS"
+          },
+          {
+            "icon": "fas fa-server",
+            "title": "Nginx",
+            "description": "Web server & reverse proxy"
+          },
+          {
+            "icon": "fas fa-cogs",
+            "title": "DevOps",
+            "description": "CI/CD, automation & reliability"
+          },
+          {
+            "icon": "fas fa-terminal",
+            "title": "Linux CLI",
+            "description": "Command line & system administration"
+          },
+          {
+            "icon": "fas fa-robot",
+            "title": "AI Tools",
+            "description": "ChatGPT, GitHub Copilot & prompt engineering"
+          }
+        ]
+      },
+      "ai_data": {
+        "title": "AI & Data",
+        "icon": "fas fa-brain",
+        "description": "Machine learning & data-related skills",
+        "skills": [
+          {
+            "icon": "fas fa-project-diagram",
+            "title": "Reinforcement Learning",
+            "description": "RL concepts & workflows"
+          },
+          {
+            "icon": "fas fa-robot",
+            "title": "Machine Learning",
+            "description": "Supervised/unsupervised learning"
+          },
+          {
+            "icon": "fas fa-chart-line",
+            "title": "Data Science",
+            "description": "EDA, feature engineering, evaluation"
+          },
+          {
+            "icon": "fas fa-eye",
+            "title": "Computer Vision",
+            "description": "Image processing & vision tasks"
+          },
+          {
+            "icon": "fas fa-language",
+            "title": "Natural Language Processing (NLP)",
+            "description": "Teks processing & modelling"
+          }
+        ]
+      },
+      "networking_security": {
+        "title": "Networking & Security",
+        "icon": "fas fa-network-wired",
+        "description": "Jaringan & manajemen keamanan",
+        "skills": [
+          {
+            "icon": "fas fa-network-wired",
+            "title": "Networking",
+            "description": "Konsep jaringan & troubleshooting"
+          },
+          {
+            "icon": "fas fa-shield-alt",
+            "title": "Security Management",
+            "description": "Keamanan sistem & kebijakan"
+          },
+          {
+            "icon": "fab fa-linux",
+            "title": "Linux",
+            "description": "Administrasi & operasi sistem berbasis Linux"
+          }
+        ]
+      },
+      "hardware_troubleshooting": {
+        "title": "Hardware Troubleshooting",
+        "icon": "fas fa-desktop",
+        "description": "Hardware diagnosis & repair",
+        "skills": [
+          {
+            "icon": "fas fa-tools",
+            "title": "Computer Hardware Troubleshooting",
+            "description": "Diagnosis dan perbaikan masalah hardware komputer"
+          },
+          {
+            "icon": "fas fa-desktop",
+            "title": "PC Assembly",
+            "description": "Rakit komputer & upgrade hardware"
+          },
+          {
+            "icon": "fas fa-network-wired",
+            "title": "Network Troubleshooting",
+            "description": "Jaringan LAN, WAN & connectivity issues"
+          },
+          {
+            "icon": "fas fa-print",
+            "title": "Printer Maintenance",
+            "description": "Setup, troubleshooting & maintenance printer"
+          }
+        ]
+      },
+      "software_troubleshooting": {
+        "title": "Software Troubleshooting",
+        "icon": "fas fa-code",
+        "description": "Software issues & debugging",
+        "skills": [
+          {
+            "icon": "fas fa-code",
+            "title": "Software Troubleshooting",
+            "description": "Pemecahan masalah software dan aplikasi"
+          },
+          {
+            "icon": "fas fa-bug",
+            "title": "Debugging",
+            "description": "Analisis dan solusi masalah teknis"
+          },
+          {
+            "icon": "fas fa-shield-alt",
+            "title": "Security Issues",
+            "description": "Virus, malware & security assessment"
+          },
+          {
+            "icon": "fas fa-cogs",
+            "title": "System Optimization",
+            "description": "Performance tuning & system maintenance"
+          }
+        ]
+      }
+    },
+    "sertifikasi": [
+      {
+        "icon": "fab fa-bootstrap",
+        "title": "Sertifikat Kelas Belajar Bootstrap CSS Framework",
+        "issuer": "CODEPOLITAN",
+        "issued": "Mar 2024",
+        "expires": "Mar 2027",
+        "credential_id": "7CAIWGH",
+        "skills": ["CSS", "Frontend Development"]
+      },
+      {
+        "icon": "fas fa-file-code",
+        "title": "Sertifikat Kelas Belajar Dasar CSS",
+        "issuer": "CODEPOLITAN",
+        "issued": "Mar 2024",
+        "expires": "Mar 2027",
+        "credential_id": "OMBH3SC",
+        "skills": ["CSS", "Web Styling"]
+      },
+      {
+        "icon": "fab fa-html5",
+        "title": "Sertifikat Kelas Belajar Dasar HTML",
+        "issuer": "CODEPOLITAN",
+        "issued": "Mar 2024",
+        "expires": "Mar 2027",
+        "credential_id": "CNZGOJV",
+        "skills": ["HTML", "Web Structure"]
+      },
+      {
+        "icon": "fab fa-js",
+        "title": "Sertifikat Kelas Belajar JavaScript",
+        "issuer": "CODEPOLITAN",
+        "issued": "Mar 2024",
+        "expires": "Mar 2027",
+        "credential_id": "WE3JQZC",
+        "skills": ["JavaScript"]
+      },
+      {
+        "icon": "fab fa-js",
+        "title": "Belajar Dasar Pemrograman JavaScript",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Sep 2023",
+        "expires": "Sep 2026",
+        "credential_id": "L4PQ8QL47ZO1",
+        "skills": ["JavaScript"]
+      },
+      {
+        "icon": "fas fa-plug",
+        "title": "Belajar Membuat Aplikasi Back-End untuk Pemula",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Sep 2023",
+        "expires": "Sep 2026",
+        "credential_id": "1RXY01VQMZVM",
+        "skills": ["Application Programming Interfaces (API)", "JavaScript"]
+      },
+      {
+        "icon": "fab fa-aws",
+        "title": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Sep 2023",
+        "expires": "Sep 2026",
+        "credential_id": "2VX36O3RJXYQ",
+        "skills": ["Amazon Web Services (AWS)"]
+      },
+      {
+        "icon": "fas fa-cogs",
+        "title": "Belajar Dasar-Dasar DevOps",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Jul 2023",
+        "expires": "Jul 2026",
+        "credential_id": "1RXY6WQ23ZVM",
+        "skills": ["DevOps"]
+      },
+      {
+        "icon": "fas fa-network-wired",
+        "title": "Belajar Jaringan Komputer untuk Pemula",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Jul 2023",
+        "expires": "Jul 2026",
+        "credential_id": "4EXGN132QZRL",
+        "skills": ["AWS Command Line Interface (CLI)", "Nginx", "Networking"]
+      },
+      {
+        "icon": "fas fa-code",
+        "title": "Belajar Prinsip Pemrograman SOLID",
+        "issuer": "Dicoding Indonesia",
+        "issued": "May 2023",
+        "expires": "May 2026",
+        "credential_id": "RVZKORQ0MPD5",
+        "skills": ["Software Design Principles"]
+      },
+      {
+        "icon": "fab fa-android",
+        "title": "Belajar Membuat Aplikasi Android untuk Pemula",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Mar 2023",
+        "expires": "Mar 2026",
+        "credential_id": "1OP85KNE2PQK",
+        "skills": ["Android Development"]
+      },
+      {
+        "icon": "fab fa-git-alt",
+        "title": "Belajar Dasar Git dengan GitHub",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Feb 2023",
+        "expires": "Feb 2026",
+        "credential_id": "07Z6GMKLWXQR",
+        "skills": ["Git", "Version Control"]
+      },
+      {
+        "icon": "fas fa-laptop-code",
+        "title": "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Feb 2023",
+        "expires": "Feb 2026",
+        "credential_id": "RVZKK7V1OZD5",
+        "skills": ["Software Development"]
+      },
+      {
+        "icon": "fas fa-code",
+        "title": "Memulai Pemrograman Dengan Kotlin",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Feb 2023",
+        "expires": "Feb 2026",
+        "credential_id": "ERZR0VW2QXYV",
+        "skills": ["Kotlin"]
+      },
+      {
+        "icon": "fas fa-sitemap",
+        "title": "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+        "issuer": "Dicoding Indonesia",
+        "issued": "Feb 2023",
+        "expires": "Feb 2026",
+        "credential_id": "1RXYO7521PVM",
+        "skills": ["Programming Logic"]
+      },
+      {
+        "icon": "fas fa-user-shield",
+        "title": "Cyber Security (Linux +) FGA",
+        "issuer": "Digital Talent Scholarship",
+        "issued": "Jun 2022",
+        "expires": null,
+        "credential_id": "FGA/2022/1742/149174241100-303",
+        "skills": ["Linux", "Networking", "Security Management"]
+      },
+      {
+        "icon": "fas fa-cloud",
+        "title": "Pursuing a Career in Cloud Computing (By Furin Ongko, AWS)",
+        "issuer": "Orbit Future Academy",
+        "issued": "Mar 2022",
+        "expires": null,
+        "credential_id": null,
+        "skills": ["Cloud Computing"]
+      },
+      {
+        "icon": "fas fa-brain",
+        "title": "Artificial Intelligence Mastery Program",
+        "issuer": "Orbit Future Academy",
+        "issued": "Jul 2021",
+        "expires": null,
+        "credential_id": null,
+        "skills": [
+          "Data Science",
+          "Git",
+          "Reinforcement Learning",
+          "Computer Vision",
+          "Python (Programming Language)",
+          "Machine Learning",
+          "Natural Language Processing (NLP)"
+        ]
+      }
+    ]
+  },
+  "pengalaman": [
+    {
+      "posisi": "Full-stack Developer",
+      "perusahaan": "Universitas Islam Madura (UIM)",
+      "tipe": "Part-time",
+      "mode_kerja": "Hybrid",
+      "lokasi": "Pamekasan, East Java, Indonesia",
+      "periode": "Januari 2024 - Sekarang",
+      "durasi": "1 yr 10 mos",
+      "tanggung_jawab": [
+        "Mengembangkan dan memelihara aplikasi kampus berbasis web dengan PostgreSQL, Firebase, dan Cloud Firestore.",
+        "Mengoptimalkan performa aplikasi internal menggunakan Tailwind CSS dan Bootstrap untuk meningkatkan aksesibilitas pengguna.",
+        "Mengotomatisasi deployment dengan AWS CLI untuk meningkatkan efisiensi pengelolaan server."
+      ],
+      "skills": [
+        "PostgreSQL",
+        "Firebase",
+        "Cloud Firestore",
+        "AWS Command Line Interface (CLI)",
+        "Bootstrap",
+        "Tailwind CSS",
+        "JavaScript",
+        "Laravel",
+        "Python",
+        "PHP"
+      ],
+      "deskripsi": "Pengembangan dan pemeliharaan aplikasi kampus, optimasi performa UI, serta otomasi deployment."
+    },
+    {
+      "posisi": "Back-end Developer",
+      "perusahaan": "Universitas Islam Madura (UIM)",
+      "tipe": "Internship",
+      "mode_kerja": "On-site",
+      "lokasi": "Pamekasan Madura, Kabupaten Pamekasan, Jawa Timur",
+      "periode": "Agustus 2022 - Januari 2024",
+      "durasi": "1 yr 6 mos",
+      "tanggung_jawab": [
+        "Merancang dan membangun aplikasi pendukung kerja kampus berbasis web sesuai kebutuhan departemen.",
+        "Mengimplementasikan arsitektur Model-View-Controller (MVC) untuk meningkatkan skalabilitas dan maintainability.",
+        "Mengintegrasikan layanan web dan database MySQL untuk manajemen data mahasiswa dan staf."
+      ],
+      "skills": [
+        "Web Services",
+        "Git",
+        "MySQL",
+        "Model-View-Controller (MVC)",
+        "Back-End Web Development",
+        "Web Development"
+      ],
+      "deskripsi": "Pengembangan back-end dan integrasi data untuk sistem internal kampus."
+    },
+    {
+      "posisi": "Full-stack Developer",
+      "perusahaan": "Freelance",
+      "tipe": "Freelance",
+      "mode_kerja": "Remote",
+      "lokasi": "Remote",
+      "periode": "Desember 2019 - Sekarang",
+      "durasi": "5 yrs 11 mos",
+      "tanggung_jawab": [
+        "Membangun dan mengelola proyek web untuk klien dengan fokus performa, keamanan, dan skalabilitas.",
+        "Menggunakan Laravel, Livewire, dan workflow DevOps untuk aplikasi end-to-end yang responsif.",
+        "Menyelesaikan proyek bisnis & e-commerce dengan kepuasan klien tinggi."
+      ],
+      "skills": [
+        "DevOps",
+        "Laravel",
+        "Livewire",
+        "Git",
+        "MySQL",
+        "Model-View-Controller (MVC)",
+        "Back-End Web Development",
+        "AWS Command Line Interface (CLI)",
+        "JavaScript",
+        "Web Development",
+        "PHP"
+      ],
+      "deskripsi": "Full-stack development untuk berbagai domain bisnis dan e-commerce secara remote."
+    },
+    {
+      "posisi": "IT Technician",
+      "perusahaan": "Citramedia Compotindo",
+      "tipe": "Part-time",
+      "mode_kerja": "Hybrid",
+      "lokasi": "Pamekasan, East Java, Indonesia",
+      "periode": "Maret 2018 - Desember 2022",
+      "durasi": "4 yrs 10 mos",
+      "tanggung_jawab": [
+        "Diagnosis, perbaikan, dan maintenance perangkat PC/laptop (hardware & software).",
+        "Instalasi OS, aplikasi, serta optimasi performa perangkat untuk meningkatkan efisiensi kerja.",
+        "Troubleshooting harian dan dukungan teknis bagi pengguna internal."
+      ],
+      "skills": [
+        "Hardware Troubleshooting",
+        "Software Troubleshooting",
+        "Linux",
+        "Networking",
+        "Security Management"
+      ],
+      "deskripsi": "Layanan teknis end-to-end untuk infrastruktur IT perusahaan."
+    }
+  ],
+  "pendidikan": [
+    {
+      "jenjang": "Master of IT",
+      "jurusan": "Business Intelligence",
+      "universitas": "Universitas AMIKOM Yogyakarta",
+      "periode": "2024 - 2026",
+      "icon": "fas fa-graduation-cap"
+    },
+    {
+      "jenjang": "Bachelor's Degree",
+      "jurusan": "Information Technology",
+      "universitas": "Universitas Islam Madura",
+      "periode": "2019 - 2023",
+      "icon": "fas fa-university"
+    }
+  ],
+  "stats": [
+    { "number": "5+", "label": "Tahun Pengalaman" },
+    { "number": "50+", "label": "Proyek Selesai" },
+    { "number": "100%", "label": "Kepuasan Klien" }
+  ],
+  "settings": {
+    "site_title": "Trio Agung Purwanto - Full Stack Developer",
+    "hero_title": "Trio Agung Purwanto",
+    "hero_subtitle": "Full Stack Developer",
+    "hero_description": "Pamekasan, East Java, Indonesia",
+    "about_title": "Tentang Saya",
+    "skills_title": "Keahlian Utama",
+    "certifications_title": "Sertifikasi",
+    "experience_title": "Pengalaman Kerja",
+    "education_title": "Pendidikan",
+    "contact_title": "Hubungi Saya"
+  }
+}

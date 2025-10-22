@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">Trio Agung Purwanto - Full Stack Developer</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+    <link rel="stylesheet" href="assets/css/modals.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">TAP</div>
+            <ul class="nav-menu">
+                <li><a href="#beranda" class="nav-link">Beranda</a></li>
+                <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+                <li><a href="#sertifikasi" class="nav-link">Sertifikasi</a></li>
+                <li><a href="#pengalaman" class="nav-link">Pengalaman</a></li>
+                <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="animate-text" id="hero-title">Trio Agung Purwanto</h1>
+                    <h2 class="animate-text" id="hero-subtitle">Full Stack Developer</h2>
+                    <p class="animate-text" id="hero-description">Pamekasan, East Java, Indonesia</p>
+                    <div class="hero-buttons animate-text">
+                        <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+                        <a href="#tentang" class="btn btn-secondary">Lihat Portfolio</a>
+                    </div>
+                </div>
+                <div class="hero-image animate-text">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3 id="profile-jabatan">Full Stack Developer</h3>
+                            <p>5+ Tahun Pengalaman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="tentang" class="about">
+            <div class="container">
+                <h2 class="section-title" id="about-title">Tentang Saya</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p id="about-summary-1">Loading...</p>
+                        <p id="about-summary-2">Loading...</p>
+                    </div>
+                    <div class="about-stats" id="about-stats">
+                        <!-- Stats akan di-load dari JSON -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="keahlian" class="skills">
+            <div class="container">
+                <h2 class="section-title" id="skills-title">Keahlian</h2>
+                <div class="skills-headers" id="skills-headers">
+                    <!-- Skill headers akan di-load dari JSON -->
+                </div>
+            </div>
+        </section>
+
+        <section id="sertifikasi" class="certifications">
+            <div class="container">
+                <h2 class="section-title" id="certifications-title">Sertifikasi</h2>
+                <div class="cert-grid" id="cert-grid">
+                    <!-- Certifications akan di-load dari JSON -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Modal -->
+        <div id="skills-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title">Skills</h3>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="skills-grid" id="modal-skills-grid">
+                        <!-- Skills akan di-load di modal -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="pengalaman" class="experience">
+            <div class="container">
+                <h2 class="section-title" id="experience-title">Pengalaman Kerja</h2>
+                <div class="timeline" id="timeline">
+                    <!-- Timeline akan di-load dari JSON -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Modal -->
+        <div id="experience-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="experience-modal-title">Detail Pengalaman</h3>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="experience-detail" id="experience-detail">
+                        <!-- Experience detail akan di-load di modal -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="pendidikan" class="education">
+            <div class="container">
+                <h2 class="section-title" id="education-title">Pendidikan</h2>
+                <div class="education-grid" id="education-grid">
+                    <!-- Education akan di-load dari JSON -->
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="contact">
+            <div class="container">
+                <h2 class="section-title" id="contact-title">Hubungi Saya</h2>
+                <div class="contact-content">
+                    <div class="contact-info" id="contact-info">
+                        <!-- Contact info akan di-load dari JSON -->
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Trio Agung Purwanto. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/sections.js"></script>
+    <script src="assets/js/modals.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/contact-form.js"></script>
+</body>
+</html>
