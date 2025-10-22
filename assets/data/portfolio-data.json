@@ -3,6 +3,15 @@
     "nama": "Trio Agung Purwanto",
     "jabatan": "Full Stack Developer",
     "lokasi": "Pamekasan, East Java, Indonesia",
+    "lanyard": {
+      "warna": "#2563eb",
+      "panjang": 80,
+      "lebar": 12,
+      "judul": "STAFF",
+      "id": "TAP-2024",
+      "valid": "2024-2028",
+      "icon": "fas fa-id-badge"
+    },
     "kontak": {
       "phone": "+62 853-3004-3948",
       "email": "ipunka37@gmail.com",
@@ -158,11 +167,6 @@
         "icon": "fas fa-brain",
         "description": "Machine learning & data-related skills",
         "skills": [
-          {
-            "icon": "fas fa-project-diagram",
-            "title": "Reinforcement Learning",
-            "description": "RL concepts & workflows"
-          },
           {
             "icon": "fas fa-robot",
             "title": "Machine Learning",

@@ -275,20 +275,49 @@ function updateContactSection() {
   const contactContainer = document.getElementById("contact-info");
   contactContainer.innerHTML = "";
 
-  // Create contact info array from profile data
+  // Create contact info array from profile data with functional links
   const kontakArray = [
-    { icon: "fas fa-phone", info: portfolioData.profile.kontak.phone },
-    { icon: "fas fa-envelope", info: portfolioData.profile.kontak.email },
-    { icon: "fab fa-linkedin", info: portfolioData.profile.kontak.linkedin }
+    {
+      icon: "fas fa-phone",
+      info: portfolioData.profile.kontak.phone,
+      link: `tel:${portfolioData.profile.kontak.phone.replace(/\s/g, '')}`,
+      type: "phone"
+    },
+    {
+      icon: "fas fa-envelope",
+      info: portfolioData.profile.kontak.email,
+      link: `mailto:${portfolioData.profile.kontak.email}`,
+      type: "email"
+    },
+    {
+      icon: "fab fa-linkedin",
+      info: "LinkedIn Profile",
+      link: portfolioData.profile.kontak.linkedin,
+      type: "link"
+    }
   ];
 
   kontakArray.forEach((contact) => {
     const contactItem = document.createElement("div");
     contactItem.className = "contact-item";
-    contactItem.innerHTML = `
-            <i class="${contact.icon}"></i>
-            <span>${contact.info}</span>
-        `;
+
+    if (contact.type === "phone") {
+      contactItem.innerHTML = `
+              <i class="${contact.icon}"></i>
+              <a href="${contact.link}" title="Call ${contact.info}">${contact.info}</a>
+          `;
+    } else if (contact.type === "email") {
+      contactItem.innerHTML = `
+              <i class="${contact.icon}"></i>
+              <a href="${contact.link}" title="Email ${contact.info}">${contact.info}</a>
+          `;
+    } else if (contact.type === "link") {
+      contactItem.innerHTML = `
+              <i class="${contact.icon}"></i>
+              <a href="${contact.link}" target="_blank" rel="noopener noreferrer" title="Open LinkedIn profile">LinkedIn Profile</a>
+          `;
+    }
+
     contactContainer.appendChild(contactItem);
   });
 }
