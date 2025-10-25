@@ -46,8 +46,7 @@
                     <div class="hero-buttons animate-text">
                         <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
                         <a href="#tentang" class="btn btn-secondary">Lihat Portfolio</a>
-                        <button class="btn btn-cv" onclick="generateCV()">Download CV</button>
-                    </div>
+                                            </div>
                 </div>
                 <div class="hero-image animate-text">
                     <div class="name-tag-container">
@@ -207,5 +206,13 @@
     <script src="assets/js/animations.js"></script>
     <script src="assets/js/contact-form.js"></script>
     <script src="assets/js/cv-generator.js"></script>
+
+    <!-- Floating CV Button -->
+    <div class="cv-fab-container">
+        <button class="cv-fab" onclick="generateCV()" title="Download CV">
+            <i class="fas fa-download"></i>
+            <span class="cv-fab-text">CV</span>
+        </button>
+    </div>
 </body>
 </html>
