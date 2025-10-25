@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -45,6 +46,7 @@
                     <div class="hero-buttons animate-text">
                         <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
                         <a href="#tentang" class="btn btn-secondary">Lihat Portfolio</a>
+                        <button class="btn btn-cv" onclick="generateCV()">Download CV</button>
                     </div>
                 </div>
                 <div class="hero-image animate-text">
@@ -204,5 +206,6 @@
     <script src="assets/js/modals.js"></script>
     <script src="assets/js/animations.js"></script>
     <script src="assets/js/contact-form.js"></script>
+    <script src="assets/js/cv-generator.js"></script>
 </body>
 </html>
