@@ -82,9 +82,8 @@ function setupExperienceModal() {
   });
 }
 
-function openExperienceModal(index) {
+function openExperienceModal(exp) {
   const modal = document.getElementById("experience-modal");
-  const exp = portfolioData.pengalaman[index];
 
   // Update modal title
   document.getElementById("experience-modal-title").textContent =
