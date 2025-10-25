@@ -341,9 +341,8 @@
         width: 240px;
     }
 
-    .lanyard {
-        height: 40px;
-        top: -40px;
+    .name-tag-container {
+        display: none;
     }
 
     }
@@ -355,6 +354,11 @@
 
     .hero-text h2 {
         font-size: 1.2rem;
+    }
+
+    /* Hide entire name tag on mobile view */
+    .name-tag-container {
+        display: none;
     }
 
     .hero-text p {
